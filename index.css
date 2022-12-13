@@ -1,0 +1,90 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Oct, 2022, 12:31:44 PM
+    Author     : Admin
+*/
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Oct, 2022, 11:50:58 AM
+    Author     : Admin
+*/
+.body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+    background: url(shadi1.jpg);
+    
+}
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(shaadi.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.navbar{
+    width: 1200px;
+    height:75px;
+    margin:auto;
+}
+.icon{
+    width: 200px;
+    height:70px;
+    float: left;
+}
+.logo{
+    color:white;
+    font-size: 55px;
+    font-family: Arial;
+    padding-left: 10px;
+    float:left;
+    padding-top: 10px;
+    margin-left:0px;
+    margin-top: 27px;
+   
+}
+.menu{
+    width:400px;
+    float:left;
+    height:70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 662px;
+    margin-top: 27px;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 15px;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    
+    color:orange;
+    
+}
+.tagline
+{
+    margin-top: 500px;
+    color:#fff;
+    text-align: center;
+}
