@@ -1,0 +1,118 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Oct, 2022, 7:40:33 PM
+    Author     : Admin
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ 
+    background:rgb(300,200,300);
+    
+}
+.box{
+    margin-top: 5%;
+    width: 400px;
+    padding: 30px;
+    position: absolute;
+    top:40%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    color:darkblue;
+    text-align: center;
+    background-size: cover;
+}
+.login{
+    font-size: 25px;
+    font-weight: 700;
+    color: white;
+}
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box h2{
+    color:white;
+    
+    font-weight: 700;
+}
+
+
+.box input[type="text"], .box input[type="password"]
+{
+    width: 270px;
+    border-color: greenyellow;
+}
+
+.box input[type="submit"]:hover{
+    background: green;
+}
+
+.box input[type="reset"]:hover{
+    background: red;
+}
+.box text
+{
+    color: white;
+    font-weight: 700;
+}
+.box table{
+    color:black;
+}
+.selectbox {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid greenyellow;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.box select option{
+    border: 0;
+    background: greenyellow;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid red;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.box td{
+    background: #c63287;
+    color:white;
+}
+.print button:hover{
+    background: green;
+}
+.cancel input
+{
+   
+    border-style: 1px solid black; 
+    background: lavenderblush;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: 15px;
+}

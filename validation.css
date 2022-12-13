@@ -1,0 +1,65 @@
+body
+{
+    
+    
+    background-position: center;
+    background: url(vivah1.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+    background-repeat: no-repeat;
+}
+
+*
+{
+    padding:0;
+    margin:0;
+    box-sizing: border-box;
+}
+
+.main{
+    background:rgb(100,100,100);
+    text-align: center;
+}
+.main ul{
+    display: inline-flex;
+    list-style: none;
+    color: white;
+}
+.main ul a{
+    text-decoration: none;
+     list-style: none;
+    color: white;
+}
+.main ul li{
+    width:200px;
+    margin:15px;
+    padding: 15px;
+}
+.main ul li:hover{
+    background: orange;
+    border-radius: 3px;
+}
+.sub-search{
+    display: none;
+}
+
+.main ul li:hover .sub-search{
+    display: block;
+    position: absolute;
+    background-color: rgb(100,100,100);
+    margin-top: 15px;
+    margin-left: -15px;
+}
+.main ul li:hover .sub-search ul{
+    display: block;
+    margin: 10px;
+}
+.main ul li:hover .sub-search ul li{
+    
+    text-align: left;
+}
+h1{
+    text-align: center;
+    background: turquoise;
+    color: white;
+}

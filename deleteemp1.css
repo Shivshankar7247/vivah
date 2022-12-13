@@ -1,0 +1,194 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Oct, 2022, 10:11:34 AM
+    Author     : Admin
+*/
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+ 
+    background:linear-gradient(100deg,#474747,#EB1750,#CC5274);
+    height: 100vh;
+}
+.box{
+    text-decoration: none;
+    font-style: none;
+    width: 550px;
+    padding: 10px;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: white;
+    box-shadow: rgb(200,200,200);
+    color:darkblue;
+    text-align: center;
+   background-size: cover;
+}
+.searchbyjobid{
+    background: darkmagenta;
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+    text-transform: uppercase;
+}
+.box h1{
+    color:white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+.box h2{
+    color:black;
+    text-decoration:none;
+    font-weight: 700;
+}
+.box input[type="text"], .box input[type="password"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid black;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+}
+.box input[type="text"], .box input[type="password"]
+{
+    width: 270px;
+    border-color: greenyellow;
+}
+.box input[type="submit"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid green;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="submit"]:hover{
+    background: green;
+    color: white;
+}
+.box input[type="reset"]
+{
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid red;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: black;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+}
+.box input[type="reset"]:hover{
+    background: red;
+    color:white;
+}
+.box text
+{
+    color: white;
+    font-weight: 700;
+}
+.box table{
+    color:black;
+}
+.selectbox {
+    border: 0;
+    background: none;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid greenyellow;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: 25px;
+}
+.box select option{
+    border: 0;
+    background: greenyellow;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid red;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.back input
+{
+    background-color: darkblue;
+    font:sans-serif;
+    color:white;
+    width: 100px;
+    
+    
+    display: block;
+    padding: 10px;
+    
+    border: 3px solid grey;
+    padding: 14px 10px;
+    
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: 15px;
+}
+.table h2 a{
+    color:black;
+    text-decoration: none;
+}
+.table h2 a:hover{
+    color: orange;
+}
+.box select option{
+    border: 0;
+    background: darkmagenta;
+    display: block;
+    margin: 20px auto;
+    text-align: center;
+    border: 3px solid red;
+    padding: 14px 10px;
+    width: 220px;
+    outline: none;
+    color: white;
+    border-radius: 24px;
+    transition: 0.25px;
+    cursor: pointer;
+    font-size: 15px;
+}

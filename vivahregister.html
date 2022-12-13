@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="vivahregistar.css">
+    </head>
+    <body>
+        <form class="box" action="vivahregister.jsp" method="post">
+            <center>
+            <table border="2">
+                <tr><td>Profile for</td><td><center><select name="n1" required><option value=" " selected/>select<option value="self">Self<option value="for son/daughter">for son/daughter<option value="other">other</select></td></tr>
+                <tr><td>First Name</td><td><input type="text" name="n2" required></td></tr>
+                <tr><td>Middle Name</td><td><input type="text" name="n3" required></td></tr>
+                <tr><td>Last Name</td><td><input type="text" name="n4" required></td></tr>
+                <tr><td>Gender</td><td><center><select name="n5" required><option value=" " selected/>select<option value="M">Male<option value="F">Female</select></td></tr>
+                <tr><td>DOB</td><td><input type="text" name="n6" required></td></tr>
+                <tr><td>Village</td><td><input type="text" name="n7" required></td></tr>
+                <tr><td>Taluka</td><td><input type="text" name="n8" required></td></tr>
+                <tr><td>District</td><td><input type="text" name="n9" required></td></tr>
+                <tr><td>State</td><td><input type="text" name="n10" required></td></tr>
+                <tr><td>Mobile</td><td><input type="text" name="n11" pattern="[0-9]{10}" required></td></tr>
+                <tr><td>Email</td><td><input type="text" name="n12" placeholder="abc@gmail.com" required></td></tr>
+                <tr><td>Password</td><td><input type="text" name="n13" required></td></tr>
+                <tr><td><input type="submit" value="Submit"></td><td><input type="reset" value="Cancel"></td></tr>
+                </table>
+            </form>
+    </body>
+</html>

@@ -1,0 +1,55 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 27 Oct, 2022, 6:56:00 PM
+    Author     : Admin
+*/
+
+
+
+
+.main{
+    width: 100%;
+    background:linear-gradient(to top,rgba(0,0,0,0.5)50%,rgba(0,0,0,0.5)50%), url(shaadi.jpg);
+    background-position: center;
+    background-size: cover;
+    height:100vh;
+}
+.username{
+    font-size: 20px;
+    color:white;
+}
+.menus{
+    width:400px;
+    float:left;
+    height:70px;
+}
+ul{
+    float:left;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-top: 17px;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 20px;
+}
+ul li a{
+    text-decoration: none;
+    color:#fff;
+    font-family: Arial;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+}
+ul li a:hover{
+    
+    color:orange;
+    
+}

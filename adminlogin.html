@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="adminlogin.css">
+    </head>
+    <body>
+        <center>
+            <div class="box">
+        <form  action="check.jsp" method="post">
+            <div class="adminlogin">
+                Admin Login 
+                </div>
+        
+            
+                    <select name="n1" required>
+                        <option value=" " selected/>Job Type
+                        <option value="director">Director
+                        <option value="manager">Manager
+                        <option value="salesexecutive">Sales Executive
+                        <option value="customersupport">Customer Support
+                    </select>
+                     
+                
+            
+            <div class="userinput">
+            <input type="text" placeholder="Enter Username" name="n2">
+             <input type="password" placeholder="Enter Password" name="n3">
+             <input type="submit" value="Login"><input type="reset" value="Cancel">
+            </div>  
+        </form>
+                
+            </center>
+    </body>
+</html>
